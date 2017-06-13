@@ -1,0 +1,23 @@
+{
+  "name": "awesome-app-todo-again2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasenkaz/awesome-app-todo-again2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasenkaz/awesome-app-todo-again2/issues"
+  },
+  "homepage": "https://github.com/jasenkaz/awesome-app-todo-again2#readme"
+}
