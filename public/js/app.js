@@ -48,9 +48,11 @@
     this.render();
   },
 
+  li: function(todo){
+    return `<li>${todo.task}<button class = 'delete'>X</button></li>`
+  },
   render: function(){
-    const lis = this.todos
-              .map(todo => `<li>${todo.task}<button class = 'delete'>X</button></li>`)
+    const lis = this.todos.map((todo) => this.li(todo))
               .join('');
     this.todoList.innerHTML = lis;
     this.cacheDeleteButtons();
